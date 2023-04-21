@@ -36,7 +36,6 @@ html {
   font-size: 12px;
   margin: auto 60px;
   color: rgb(86, 89, 93);
-  margin-top: -15px;
 }
 .cardheader .icon {
   margin-left: 4px;
@@ -181,6 +180,7 @@ html {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
+ 
 }
 .navigation ul {
   display: flex;
@@ -221,8 +221,8 @@ html {
   align-items: flex-start;
 }
 .tweetscardprofile img {
-  width: 80px;
-  height: 80px;
+  width: 65px;
+  height: 65px;
   border-radius: 50%;
 }
 .tweetscardcontent {
@@ -259,6 +259,44 @@ html {
 .tweetscardcontenttext{
   margin-top: 6px;
 }
-@media screen and(max-width:768px) {
-  
+@media screen and (max-width:600px) {
+  .profilepicture img {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+  }
+  .navigation ul li {
+    padding: 5px 10px;
+    list-style: none;
+  }
+  .navigation ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+  }
+  .tweetscardprofile img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+  }
+  .following{
+    display: grid;
+  }
+  .following a {
+    display: grid;
+  }
+}
+@media screen and (max-width:300px) {
+  .navigation ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+  }
+  .tweetscardprofile img {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+  }
 }
