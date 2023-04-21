@@ -1,4 +1,5 @@
 const id=9
+const show=false
 async function fetchdata(){
     await fetch(`https://jsonplaceholder.typicode.com/users/${id}`)
     .then(res=>res.json())
@@ -85,8 +86,7 @@ async function collecttweets(){
                 <div class="tweetscardcontenttext">
                     
                     <p>${data.body}</p>
-                </div> 
-                 
+                </div>           
             </div>
         </div>`
         html+=collectedtweets

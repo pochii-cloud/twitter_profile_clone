@@ -239,6 +239,7 @@ html {
 .tweetscardcontentheaderh3 {
   position: relative;
   margin-top: -20px;
+  font-size: 20px;
 }
 .tweetscardcontentheaderh3 h3{
   display: flex;
@@ -257,7 +258,11 @@ html {
   font-size: 25px;
 }
 .tweetscardcontenttext{
+  display: flex;
+  align-items: center;
+  justify-content: center;
   margin-top: 6px;
+  width: 80%;
 }
 @media screen and (max-width:600px) {
   .profilepicture img {
