@@ -77,7 +77,7 @@ async function collecttweets(){
                     
                    <div class="tweetscardcontentheaderh3">
         
-                    <h3> <ion-icon name="arrow-back-outline"></ion-icon>${data.title}</h3>
+                    <h3> <ion-icon name="arrow-back-outline"></ion-icon>Glenna Reichert<span>@Delphine. Mar 31</span></h3>
                    </div>
                     <div class="tweetscardcontentheadericon">
                         <ion-icon name="ellipsis-horizontal-circle-outline"></ion-icon>

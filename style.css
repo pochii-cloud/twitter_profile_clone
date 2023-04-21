@@ -1,11 +1,12 @@
-@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Roboto:ital,wght@1,500;1,700&display=swap");
-*{
+@import url("https://fonts.googleapis.com/css2?family=Bodoni+Moda:opsz,wght@6..96,400;6..96,500;6..96,600;6..96,700;6..96,900&family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&display=swap");
+
+* {
   padding: 0;
   margin: 0;
 }
 html {
-  font-family: "Lato", sans-serif;
-  font-family: "Roboto", sans-serif;
+  font-family: "Bodoni Moda", serif;
+  font-family: "Nunito", sans-serif;
 }
 .container{
   justify-content: center;
@@ -245,6 +246,18 @@ html {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+.tweetscardcontentheaderh3 span{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 10px;
+  color: rgb(21, 113, 175);
+  font-size: 16px;
+  font-weight: 400;
+}
+.tweetscardcontentheaderh3 span:hover{
+  cursor: pointer;
 }
 .tweetscardcontentheaderh3 h3 ion-icon{
   margin-right: 5px;
