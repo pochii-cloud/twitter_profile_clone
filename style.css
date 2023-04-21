@@ -306,6 +306,9 @@ html {
   .following a {
     display: grid;
   }
+  .tweetscardcontentheaderh3 h3{
+  flex-wrap: wrap;
+}
 }
 @media screen and (max-width:300px) {
   .navigation ul {

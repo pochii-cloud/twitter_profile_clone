@@ -1,5 +1,7 @@
 const id=9
 const show=false
+// const commentslist=await fetch('https://jsonplaceholder.typicode.com/users/9/comments')
+// console.log(commentslist)
 async function fetchdata(){
     await fetch(`https://jsonplaceholder.typicode.com/users/${id}`)
     .then(res=>res.json())
@@ -51,7 +53,8 @@ async function fetchdata(){
                 <li><a class="active" href="">Tweets</a></li>
                 <li><a href="">Replies</a></li>
                 <li><a href="">Media</a></li>
-                <li><a href="">Links</a></li>
+                <li><a href="">Links</a></li> 
+                
             </ul>
         </div>
 
@@ -86,7 +89,7 @@ async function collecttweets(){
                 <div class="tweetscardcontenttext">
                     
                     <p>${data.body}</p>
-                </div>           
+                </div>       
             </div>
         </div>`
         html+=collectedtweets
@@ -96,3 +99,4 @@ async function collecttweets(){
 }
 fetchdata();
 collecttweets();
+
