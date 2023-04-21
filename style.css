@@ -181,12 +181,14 @@ html {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
+  border-bottom: 1px solid rgb(113, 118, 123);
  
 }
 .navigation ul {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
+
 }
 .navigation ul li {
   padding: 10px 45px;
