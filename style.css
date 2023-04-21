@@ -1,0 +1,264 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Roboto:ital,wght@1,500;1,700&display=swap");
+*{
+  padding: 0;
+  margin: 0;
+}
+html {
+  font-family: "Lato", sans-serif;
+  font-family: "Roboto", sans-serif;
+}
+.container{
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  max-width: 100vw;
+  background: rgb(0, 0, 0);
+}
+.card {
+  width: 60vw;
+  color: #ffff;
+  padding: 10px;
+}
+.cardheader {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+.cardheader h2 {
+  display: flex;
+  align-items: center;
+}
+.cardheader h2 ion-icon {
+  margin: auto 20px;
+}
+.cardheader span {
+  font-size: 12px;
+  margin: auto 60px;
+  color: rgb(86, 89, 93);
+  margin-top: -15px;
+}
+.cardheader .icon {
+  margin-left: 4px;
+  height: 25px;
+  width: 25px;
+}
+.cardheader .icon2 {
+  height: 20px;
+  width: 20px;
+  margin-left: 2px;
+  border-radius: 50%;
+}
+.cardimage img {
+  width: 100%;
+}
+.profilesection {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+}
+.profilepicture {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  margin-top: -8vh;
+}
+.profilepicture img {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+}
+.profilepicture h3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.profilepicture .icon2 {
+  height: 20px;
+  width: 20px;
+  margin-left: 2px;
+  border-radius: 50%;
+}
+.profilepicture .icon {
+  margin-left: 4px;
+  height: 25px;
+  width: 25px;
+}
+.profilepicture h5 {
+  font-weight: lighter;
+  color: rgb(86, 89, 93);
+}
+
+.following {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+.following a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 30px;
+}
+.following button {
+  display: flex;
+  background-color: transparent;
+  border: 1px solid white;
+  padding: 10px;
+  border-radius: 25px;
+  color: white;
+}
+.profileinfo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 15px;
+}
+.info {
+  padding: 5px;
+}
+.info span {
+  color: rgb(21, 113, 175);
+}
+.stacks {
+  display: flex;
+  flex-wrap: wrap;
+  width: 70%;
+}
+.stacks a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+.stacks .websitelink{
+  color: rgb(21, 113, 175);
+  text-decoration: none;
+}
+.followers {
+  display: flex;
+  margin-top: 10px;
+}
+.followers p {
+  margin: 5px;
+}
+.followers p span {
+  color: rgb(113, 118, 123);
+}
+.followedby {
+  display: flex;
+  margin-top: 10px;
+}
+.followedby p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(113, 118, 123);
+}
+.followedby img{
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+
+}
+.followedby .f2{
+  position: relative;
+  margin-left: -1.5vw;
+}
+.followedby .f3{
+  position: relative;
+  margin-left: -1.5vw;
+  margin-right: 5px;
+}
+.navigation {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.navigation ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.navigation ul li {
+  padding: 10px 45px;
+  list-style: none;
+}
+.navigation ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 600;
+}
+.active {
+  border-bottom: 10px solid rgb(27, 144, 223);
+  border-radius: 3px;
+}
+.tweetscard {
+  display: flex;
+  color: #ffff;
+  margin-top: 10px;
+}
+.tweets{
+  padding: 10px;
+  width: 60vw;
+}
+.tweets .icon{
+  display: flex;
+  color: rgb(113, 118, 123);
+  align-items: center;
+  margin-left: 10vw;
+}
+.tweetscardprofile {
+  display: flex;
+  align-items: flex-start;
+}
+.tweetscardprofile img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+}
+.tweetscardcontent {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+.tweetscardcontentheader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 50vw;
+}
+.tweetscardcontentheaderh3 {
+  position: relative;
+  margin-top: -20px;
+}
+.tweetscardcontentheaderh3 h3{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.tweetscardcontentheaderh3 h3 ion-icon{
+  margin-right: 5px;
+}
+.tweetscardcontentheadericon{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.tweetscardcontentheadericon ion-icon{
+  font-size: 25px;
+}
+.tweetscardcontenttext{
+  margin-top: 6px;
+}
+@media screen and(max-width:768px) {
+  
+}
